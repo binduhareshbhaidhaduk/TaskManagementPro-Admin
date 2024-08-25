@@ -1,0 +1,82 @@
+.calendar-page {
+   width: 800px !important;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+  }
+  
+  h1 {
+    color: #444;
+    margin-bottom: 20px;
+  }
+  
+  .react-calendar {
+    width: 100%;
+    background-color: rgb(17, 17, 17);
+    border-radius: 10px;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+  }
+  
+  .react-calendar__tile {
+    padding: 10px;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+    /* color: #444; */
+  }
+  
+  .react-calendar__tile:hover {
+    background-color: #e0e0e0;
+  }
+  
+  .highlighted {
+    background-color: #ffeb3b; /* Yellow background for highlighted dates */
+    color: black; /* Black text on highlighted dates */
+  }
+  
+  .modal {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 500px;
+    margin: 0 auto;
+  }
+  
+  .modal-overlay {
+    background-color: rgba(0, 0, 0, 0.7);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal h2 {
+    margin-bottom: 20px;
+  }
+  
+  textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    background-color: #007bff;
+    color: #fff;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
