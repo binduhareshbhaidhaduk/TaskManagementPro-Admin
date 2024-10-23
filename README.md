@@ -1,5 +1,4 @@
 📋 Task Management Pro - Admin
-
             This is the Admin Side of the Task Management Pro project. Here, admins can log in, sign up, manage tasks by status, track task counts, view tasks on the  
       home page, edit or delete tasks, manage a calendar, and log out securely. 🎯
 
